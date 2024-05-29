@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         switzer: ["var(--font-switzer)"],
       },
+      skew: {
+        '-17': '-17deg',
+      }
     },
   },
   plugins: [],

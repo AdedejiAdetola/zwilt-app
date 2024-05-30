@@ -34,10 +34,10 @@ const Assurance = () => {
   return (
     <div className="pb-[92px] pt-[149px] app-container">
       <div className="space-y-[30px]">
-        <h3 className="font-bold text-[54px] text-[#202229] max-w-[570px] leading-[64px]">
+        <h3 className="font-bold text-[54px] text-[#202229] max-w-[570px] leading-[64px] lg:text-[48px] md:text-[32px] md:leading-[48px]">
           How we ensure you’re in good hands.
         </h3>
-        <p className="text-[22px] leading-8 font-[300] max-w-[646px]">
+        <p className="text-[22px] leading-8 font-[300] max-w-[646px] md:text-[16px]">
           With our comprehensive screening process, we hand-pick highly skilled
           candidates so you can onboard them in a matter of days.
         </p>

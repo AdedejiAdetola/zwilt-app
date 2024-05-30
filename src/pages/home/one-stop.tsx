@@ -19,36 +19,36 @@ import Link from "next/link";
 const OneStop = () => {
   return (
     <section>
-      <div className="h-[132.99px] w-full bg-[url('/img/pattern.png')] bg-cover"></div>
-      <div className="pt-[183px] pb-[148px] bg-[url('/img/bg1.png')] bg-cover app-container">
-        <div className="w-[977px] mx-auto">
-          <h4 className="text-center font-bold text-[54px] leading-[64px]">
+      <div className="h-[132.99px] md:h-[100px] w-full bg-[url('/img/pattern.png')] bg-cover"></div>
+      <div className="pt-[183px] lg:pt-[130px] pb-[148px] lg:pb-[110px] bg-[url('/img/bg1.png')] bg-cover app-container">
+        <div className="w-[977px] lg:w-[75vw] md:w-[85vw] mx-auto">
+          <h4 className="text-center font-bold text-[54px] lg:text-[48px]  md:text-[42px] leading-[64px] lg:leading-[58px]">
             Your one-stop marketplace for finding the talent your business
             needs.
           </h4>
         </div>
 
-        <div className="mt-[90px] space-y-[30px]">
-          <div className="flex justify-between items-center">
-            <div className="w-[380px]">
-              <h4 className="text-[#202229] text-[24px] font-medium">
+        <div className="mt-[90px] lg:mt-[50px] space-y-[30px]">
+          <div className="flex justify-between items-center lg:flex-col gap-y-8">
+            <div className="w-[380px] lg:w-full ">
+              <h4 className="text-[#202229] text-[24px] font-medium text-center">
                 Find Dev and IT professionals to scale your business.{" "}
               </h4>
 
-              <div className="grid grid-cols-2 gap-y-2 mt-5">
-                <div className="flex items-center gap-x-2">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-2 mt-5">
+                <div className="flex items-center justify-center gap-x-2">
                   <Skill />
                   <span className="text-[16px] text-[#202229CC]">
                     989 Skills
                   </span>
                 </div>
-                <div className="flex items-center gap-x-2">
+                <div className="flex items-center justify-center gap-x-2">
                   <Category />
                   <span className="text-[16px] text-[#202229CC]">
                     45 Sub-Categories
                   </span>
                 </div>
-                <div className="flex items-center gap-x-2">
+                <div className="flex items-center justify-center gap-x-2">
                   <Profile />
                   <span className="text-[16px] text-[#202229CC]">
                     1011 Profiles
@@ -57,11 +57,11 @@ const OneStop = () => {
               </div>
             </div>
             {/* TODO: Remove the Height Later and Make the Component Reusable*/}
-            <div className="flex-1 bg-white h-[224px] max-w-[730px] rounded-[7px] py-[18px] pl-7 pr-[26px]">
+            <div className="flex-1 bg-white h-[224px] max-w-[730px] lg:max-w-[85vw] md:max-w-[90vw] rounded-[7px] py-[18px] pl-7 pr-[26px]">
               <label className="block text-base text-[#202229] leading-[23.8px] pl-[1px]">
                 IT & Development
               </label>
-              <div className="flex justify-between items-center mt-[15px]">
+              <div className="flex justify-between gap-x-5 lg:gap-x-6 items-center mt-[15px]">
                 <div className="space-y-3">
                   <div className="h-[96px] w-[96px] rounded-full bg-[#F6F6F6] flex items-center justify-center">
                     <Shopify className="w-[39px] h-[40px]" />
@@ -192,7 +192,7 @@ const OneStop = () => {
             </div>
           </div>
           <div className="flex justify-between items-center">
-            <Link href={"#"} className="btn ">
+            <Link href={"#"} className="custom-btn ">
               <label>Explore More</label>
               <span>
                 <LogoWhite className="w-[25px] h-[15px]" />

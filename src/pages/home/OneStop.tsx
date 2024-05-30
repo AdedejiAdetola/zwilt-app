@@ -56,7 +56,7 @@ const OneStop = () => {
                 </div>
               </div>
             </div>
-            {/* TODO: Remove the Height Later and Make the Component Reusable*/}
+            
             <div className="flex-1 bg-white h-[224px] max-w-[730px] lg:max-w-[85vw] md:max-w-[90vw] rounded-[7px] py-[18px] pl-7 pr-[26px]">
               <label className="block text-base text-[#202229] leading-[23.8px] pl-[1px]">
                 IT & Development

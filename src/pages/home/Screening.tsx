@@ -3,7 +3,7 @@ import React from "react";
 import { Accordion } from "rizzui";
 import { OpenAccordion, CloseAccordion } from "@/icons";
 
-const Assurance = () => {
+const Screening = () => {
   const data = [
     {
       title: "Resume Screening",
@@ -79,4 +79,4 @@ const Assurance = () => {
   );
 };
 
-export default Assurance;
+export default Screening;

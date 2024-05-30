@@ -1,11 +1,11 @@
-import HomeBanner from "@/pages/home/banner";
-import OneStop from "@/pages/home/one-stop";
-import Assurance from "@/pages/home/assurance";
-import WhyZwilt from "@/pages/home/whyZwilt";
-import Testimonial from "@/pages/home/testimonial";
-import Faq from "@/pages/home/faq";
+import HomeBanner from "@/pages/home/Banner";
+import OneStop from "@/pages/home/OneStop";
+import WhyZwilt from "@/pages/home/WhyZwilt";
+import Testimonial from "@/pages/home/Testimonial";
+import Faq from "@/pages/home/Faq";
 import Footer from "@/pages/home/Footer";
-import Journey from "@/pages/home/journey";
+import Screening from "@/pages/home/Screening";
+import StartJourney from "@/pages/home/StartJourney";
 
 export default function Home() {
   return (
@@ -13,8 +13,8 @@ export default function Home() {
       <HomeBanner />
       <OneStop />
       <Testimonial />
-      <Assurance />
-      <Journey />
+      <Screening />
+      <StartJourney />
       <WhyZwilt />
       <Faq />
       <Footer />

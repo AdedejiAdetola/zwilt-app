@@ -3,7 +3,7 @@ import React from 'react'
 import Image from "next/image";
 
 
-const Journey = () => {
+const StartJourney = () => {
   return (
     <div>
         <h1 className='text-[#202229] text-[54px] leading-[64px] font-[700] text-center mb-[100px] xl:text-[34px]'>Start your journey today</h1>
@@ -41,4 +41,4 @@ const Journey = () => {
   )
 }
 
-export default Journey
+export default StartJourney

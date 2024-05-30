@@ -18,7 +18,7 @@ const Faq = () => {
               I want to work part-time, is that possible
             </label>
           </div>
-          {/* TODO: rEUSABLE*/}
+          
           <div className="flex items-center justify-between border-b border-b-[#D6D6D6] h-[112px] relative">
             <label className="flex-1 h-full  flex items-center justify-center text-[22px] font-light">
               I want to work part-time, is that possible

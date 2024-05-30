@@ -45,14 +45,14 @@ const HomeBanner = () => {
   return (
     <section className="min-h-screen app-container flex flex-col items-center justify-center">
       <div className="w-[671px] lg:w-[75vw] md:w-[85vw]">
-        <div className="font-bold text-[54px] lg:text-[48px] md:text-[42px] text-center leading-[64px] lg:leading-[58px] md:leading-[49px]">
+        <div className="font-bold text-[54px] lg:text-[48px] md:text-[42px] sm:text-[36px] text-center leading-[64px] lg:leading-[58px] md:leading-[49px]">
           Finding the right fit{" "}
-          <div className="h-[43px] md:h-[34px] w-[68px] md:w-[50px] relative inline-flex">
+          <div className="h-[43px] md:h-[34px]  w-[68px] md:w-[50px] relative inline-flex">
             <Image src="/img/user.gif" alt="heart" fill />
           </div>
           has never been easier.
         </div>
-        <p className="text-[#202229] text-[22px] md:text-[20px] text-center font-light pb-[30px] pt-[20px]">
+        <p className="text-[#202229] text-[22px] md:text-[20px] sm:text-[18px] text-center font-light pb-[30px] pt-[20px]">
           With our rigorous pre-vetting process, you&apos;ll never have to worry
           about finding the ideal candidate ever again.
         </p>
@@ -60,7 +60,7 @@ const HomeBanner = () => {
         <div className="relative border-[1.5px] border-[#F0F0F0] h-[74px] md:h-[64px] rounded-[15px] overflow-hidden">
           <input
             placeholder="Looking for design |"
-            className="h-full pl-[27px] w-full border-0 outline-[#525AA0]"
+            className="h-full pl-[27px] w-full border-0 outline-none"
           />
           <button className="absolute right-0 top-0 h-full w-[74px] bg-[#FFBE2E] flex items-center justify-center rounded-[15px]">
             <Logo className="fill-[#202229]" />
@@ -68,7 +68,7 @@ const HomeBanner = () => {
         </div>
       </div>
 
-      <div className="w-[920px] lg:w-[85vw]  rounded-[15px] py-[15px] px-[65px] md:px-[35px] bg-[#F8F8F8] mt-[40px]">
+      <div className="w-[920px] lg:w-[85vw]   rounded-[15px] py-[15px] px-[65px]  md:px-[35px] sm:px-[10px] bg-[#F8F8F8] mt-[40px]">
         <div className="inline-flex bg-[#D2D2D2] rounded-[15px] mx-auto">
           {tabs.map((tab) => (
             <button
@@ -90,7 +90,7 @@ const HomeBanner = () => {
           {currentData.map((item, i) => (
             <div
               key={i}
-              className={` text-[16px] md:text-[14px] font-normal ${
+              className={` text-[16px] md:text-[14px] sm:text-[12px] font-normal ${
                 i === 6 ? "font-semibold text-[#202229]" : "text-[#959595]"
               }`}
             >

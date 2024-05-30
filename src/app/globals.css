@@ -22,6 +22,11 @@
     font-size: 22px;
     letter-spacing: 18;
   }
+  .custom-btn {
+    @apply md:w-[202px] md:h-[50px] md:text-[18px];
+
+
+  }
   .custom-btn.learn {
     width: 202px !important;
   }
@@ -56,6 +61,8 @@
     justify-content: flex-end;
     padding-right: 15px;
   }
+
+  
 
 
   .footerbtn {

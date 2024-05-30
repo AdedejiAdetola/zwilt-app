@@ -138,8 +138,8 @@ function Footer() {
                     PLATFORM
                   </h4>
                   <ul>
-                    {listone.map((data) => (
-                      <li>
+                    {listone.map((data, i) => (
+                      <li key={i}>
                         <Link
                           href={data.href}
                           className="text-[18px] py-2 mb-4 underlinetext xl:text-[14px]"
@@ -157,8 +157,8 @@ function Footer() {
                     CATEGORIES
                   </h4>
                   <ul>
-                    {listtwo.map((data) => (
-                      <li>
+                    {listtwo.map((data, i) => (
+                      <li key={i}>
                         <Link
                           href={data.href}
                           className="text-[18px] py-2 mb-4 underlinetext xl:text-[14px]"
@@ -176,8 +176,8 @@ function Footer() {
                     HELP
                   </h4>
                   <ul>
-                    {listthree.map((data) => (
-                      <li>
+                    {listthree.map((data, i) => (
+                      <li key={i}>
                         <Link
                           href={data.href}
                           className="text-[18px] py-2 mb-4 underlinetext xl:text-[14px]"
@@ -195,8 +195,8 @@ function Footer() {
                     GET IN TOUCH @
                   </h4>
                   <ul>
-                    {listfour.map((data) => (
-                      <li>
+                    {listfour.map((data, i) => (
+                      <li key={i}>
                         <Link
                           href={data.href}
                           className="text-[18px] py-2 mb-4 underlinetext xl:text-[14px]"

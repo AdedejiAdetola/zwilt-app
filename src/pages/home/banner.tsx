@@ -42,6 +42,8 @@ const HomeBanner = () => {
     setCurrentData(newTab === tabs[0] ? itData : designData);
   };
 
+  // Update 
+
   return (
     <section className="min-h-screen app-container flex flex-col items-center justify-center">
       <div className="w-[671px] lg:w-[75vw] md:w-[85vw]">

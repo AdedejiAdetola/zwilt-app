@@ -15,7 +15,7 @@ const OneStopCard = ({ data }: { data: any }) => {
             </div>
           </div>
         )}
-        {data.skills.map((skill: any, i: number) => (
+        {data?.skills.map((skill: any, i: number) => (
           <div className="space-y-3" key={i}>
             <div className="h-[96px] md:h-[70px] w-[96px] md:w-[70px] rounded-full bg-[#F6F6F6] flex items-center justify-center">
               {skill.icon}
